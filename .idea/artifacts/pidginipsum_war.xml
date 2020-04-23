@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pidginipsum:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pidginipsum</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pidginipsum-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pidginipsum:war exploded" />
+    </root>
+  </artifact>
+</component>
